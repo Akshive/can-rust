@@ -1,0 +1,12 @@
+[package]
+name="cdn-rust"
+version="1.0.0"
+edition="2021"
+
+[dependencies]
+axum = "0.6.20"
+miette = "5.10.0"
+tokio = { version = "1.33.0", features = ["full"] }
+tracing = "0.1.40"
+tracing-subscriber = "0.3.17"
+
